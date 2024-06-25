@@ -1,0 +1,239 @@
+    body
+    {
+        margin: 0;
+        padding: 0;
+    }
+    #part1
+    {
+        display: flex;
+        justify-content: space-between;  
+    }
+    #part2
+    {
+        padding-top: 10%;
+    }
+    #part3 button
+    {
+        margin-left: 50%;
+        background: transparent;
+        color: red;
+        border: 2px solid red;
+        padding-left: 2%;
+        padding-top: 8px;
+        padding-right: 2%;
+        padding-bottom: 8px;
+    }
+    #part4
+    {
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+    }
+    #part4 button
+    {
+        background: transparent;
+        border: 2px solid red; 
+        padding-left: 4%;
+        padding-top: 8px;
+        padding-right: 4%;
+        padding-bottom: 8px;
+        margin-bottom: 2%;
+        margin-right: 2%;
+    }
+    #part5
+    {
+        align-items: center;
+        padding-left: 2%;
+    }
+    
+    #part2 p
+    {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+   #seca
+   {
+    background-image: url("himalaya.jpg");
+    background-size: cover;
+    width: 100%;  
+    background-position: bottom;
+   }
+   #secb
+   {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   }
+
+   #secb div
+   {
+    width: 50%;
+   }
+   #secb div img
+   {
+    transform: scale(1.2)
+   }
+   #secc
+   {
+    background-image: url("himalaya.jpg");
+    background-size: cover;
+    width: 100%;
+    background-position: bottom;
+   }
+   #secc #box5 button
+   {
+    margin-left: 50%;
+   }
+   #secd
+   {
+    display: flex;
+    justify-content: space-between;
+   }
+    #box1
+    {
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    #box2
+    {
+        padding-right: 30px;
+        padding-top: 20px;  
+    }
+    #box4
+    {
+        margin-left: 50%;
+
+    }
+    #box4 p
+    {
+        margin-right: 30%;
+    }
+    #box4 button
+    {
+        color: red;
+        border: 2px solid red;
+        background: transparent;
+    }
+    #box3
+    {
+        margin-left: 5%;   
+    }
+
+    #box3 img
+    {
+        transform: scale(1.2);
+    }
+    #box5 button
+    {
+        color: red;
+        border: 2px solid red;
+        background: transparent;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    #box6
+    {
+        padding-left: 2%;
+        padding-bottom:1%;
+    }
+    #box6 button
+    {
+        border: 2px solid red;
+        background: transparent;
+        padding-left: 2%;
+        padding-right: 4%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #box7
+    {
+       padding-left: 10%;
+    }
+    #box5 p
+    {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    #box5 h1
+    {
+        color: white;
+
+    }
+    #box9
+    {
+      margin-top: 10%; 
+      margin-right: 20%;
+    }
+    
+    footer a
+    {
+        margin-right: 5px;
+        color: white;
+        text-decoration: none;
+        padding-left: 2%;
+        
+    }
+    footer
+    {
+    
+        background-color: black;
+        width: 100%;
+       
+    }
+
+#box1 a
+{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+#box2 a
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+@media(max-width:600px) 
+{
+
+    #part1
+    {
+        display: block;
+    }
+    #part4
+    {
+        display: block;
+    }
+ #secb
+ {
+    display: block;
+ }   
+ #box3 img
+ {
+    display: 80%;
+ }
+ #part6 img
+ {
+    display: 80%;
+ }
+ #secd
+   {
+    display: block
+   }
+
+   #part4, #box6
+   {
+    display: none;
+   }
+
+   #box2
+   {
+    display: none;
+   }
+   #box1
+   {
+    width: 100%;
+    display: block;
+   }
+}
